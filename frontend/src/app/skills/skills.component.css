@@ -1,0 +1,35 @@
+.skills{
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+}
+.heading{
+     font-size:22px;
+}
+ul{
+    list-style-type: none;
+}
+
+.sk{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  margin:auto;
+  border-radius: 5px;
+  padding:7px;
+  font-size:18px;
+  gap:14px;
+}
+
+li{
+  display: flex;
+  gap:8px;
+  padding: 6px;
+  align-items: center;
+}
+img{
+  width:30px;
+}
+
+.non-tech{
+  margin-top: 20px;
+}
